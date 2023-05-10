@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo ansible-playbook --ask-vault-pass local.yml 
