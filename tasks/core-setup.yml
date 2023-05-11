@@ -18,7 +18,7 @@
 - name: Install System Packages 3 (the rest)
   become: true
   apt:
-    name: ["i3","dconf-editor", "moreutils", "stow", "tmux"]
+    name: ["i3","dconf-editor", "moreutils", "stow", "tmux", "fzf"]
   tags:
     - install
     - core
